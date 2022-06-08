@@ -5,7 +5,9 @@
 - ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ## Take the quiz
-`npx programming-quiz `
+```
+npx programming-quiz 
+```
 
 ## About
 A simple Node.js terminal programming quiz.
