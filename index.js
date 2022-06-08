@@ -198,7 +198,7 @@ async function handleAnswer(isCorrect) {
 
 function winner() {
     console.clear();
-    const message = `Congratulations, ${playerName} ! \n You are a winner !`;
+    const message = `Congratulations , ${playerName} ! \n You are a winner !`;
 
     figlet(message, (err, data) => {
         console.log(gradient.summer.multiline(data));
