@@ -12,7 +12,7 @@ let playerName;
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
 async function welcome() {
-    const neonTitle = chalkAnimation.neon('Welcome To The Terminal Quiz \n');
+    const neonTitle = chalkAnimation.neon('Welcome To The Programming Quiz \n');
 
     await sleep();
     neonTitle.stop();
